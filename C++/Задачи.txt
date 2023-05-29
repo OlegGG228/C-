@@ -1,0 +1,3551 @@
+C++, 
+41 а
+
+C++, 
+#include <math.h> 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a;
+    cout << "Введите вещественное число:" << endl;
+    cin >> a;
+    a = a * a;
+    a = a * a; 
+    cout << "Ответ: " << a << endl;
+
+    return 0;
+}
+
+C++, 
+41 b
+
+C++, 
+#include <math.h> 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a, b;
+    cout << "Введите вещественное число:" << endl;
+    cin >> a;
+    a = a * a;
+    b = a * a;
+    a = a * b; 
+    cout << "Ответ: " << a << endl;
+
+    return 0;
+}
+
+C++, 
+41 c
+
+C++,
+#include <math.h> 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a, b;
+    cout << "Введите вещественное число:" << endl;
+    cin >> a;
+    a = a * a;
+    b = a * a;
+    a = a * b;
+    a = a * 2;
+    cout << "Ответ: " << a << endl;
+
+    return 0;
+}
+
+C++, 
+41
+
+C++, 
+begin 1
+
+C++, 
+#include <math.h> 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a, P ;
+    cout << "Введите число:" << endl;
+    cin >> a;
+    P = 4 * a;
+    cout << "Ответ: " << P << endl;
+
+    return 0;
+}
+
+C++, 
+begin 2
+
+C++, 
+#include <math.h> 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a, S ;
+    cout << "Введите число:" << endl;
+    cin >> a;
+    S = pow(a,2);
+    cout << "Ответ: " << S << endl;
+
+    return 0;
+}
+
+C++, 
+begin 3
+
+C++, 
+#include <math.h> 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a, b, S, P ;
+    cout << "Введите число:" << endl;
+    cin >> a;
+    cout << "Введите число:" << endl;
+    cin >> b;
+    S = a * b;
+    P = 2*(a+b);
+    cout << "Ответ: " << S << endl;
+    cout << "Ответ: " << P << endl;
+
+    return 0;
+}
+
+C++, 
+begin 4
+
+C++, 
+#include <math.h> 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float L, d, p;
+    cout << "Введите число:" << endl;
+    cin >> d;
+    p = 3.14;
+    L = p * d;
+    cout << "Ответ: " << L << endl;
+
+    return 0;
+}
+
+C++, 
+begin 5
+
+C++, 
+#include <math.h> 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float a, V, S;
+    cout << "Введите число:" << endl;
+    cin >> a;
+    V= pow(a,3);
+    S=6*pow(a,2);
+    cout << "Ответ: " << V << ", " << S << endl;
+
+    return 0;
+}
+
+C++, 
+begin 6
+
+C++, [18.03.2023 0:13]
+#include <math.h> 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float a,b, c, V, S;
+    cout << "Введите число:" << endl;
+    cin >> a;
+    cout << "Введите число:" << endl;
+    cin >> c;
+    cout << "Введите число:" << endl;
+    cin >> b;
+    V= a*b*c;
+    S=2*(a*b+b*c+a*c);
+    cout << "Ответ: " << V << ", " << S << endl;
+
+    return 0;
+}
+
+C++, 
+begin 7
+
+C++, 
+#include <math.h> 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float L, S, R, p;
+    cout << "Введите число:" << endl;
+    cin >> R;
+    p = 3.14;
+    L = 2*p*R;
+    S =p*pow(R,2);
+    cout << "Ответ: " << L <<  ", " << S << endl;
+
+    return 0;
+}
+
+C++, 
+begin 8
+
+C++,
+#include <math.h> 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float a, b, x;
+    cout << "Введите число:" << endl;
+    cin >> a;
+    cout << "Введите число:" << endl;
+    cin >> b;
+    x = (a+b)/2;
+    cout << "Ответ: " << x << endl;
+
+    return 0;
+}
+
+C++, 
+begin 9
+
+C++, 
+#include <math.h> 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float a, b, x;
+    cout << "Введите число:" << endl;
+    cin >> a;
+    cout << "Введите число:" << endl;
+    cin >> b;
+    x = sqrt(a*b);
+    cout << "Ответ: " << x << endl;
+
+    return 0;
+}
+
+C++, 
+begin 10 1
+
+C++, 
+#include <math.h> 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float a, b, x;
+    cout << "Введите число:" << endl;
+    cin >> a;
+    cout << "Введите число:" << endl;
+    cin >> b;
+    if(a==0 && b==0){
+        cout << "Нельзя" << endl;
+    }
+    else 
+        x = a+b;
+    cout << "Ответ" << x << endl;
+    return 0;
+}
+
+C++, 
+begin 10 2
+
+C++, 
+#include <math.h> 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float a, b, x;
+    cout << "Введите число:" << endl;
+    cin >> a;
+    cout << "Введите число:" << endl;
+    cin >> b;
+    if(a==0 && b==0){
+        cout << "Нельзя" << endl;
+    }
+    else 
+        x = a-b;
+    cout << "Ответ" << x << endl;
+    return 0;
+}
+
+C++, 
+begin 10 3
+
+C++, 
+#include <math.h> 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float a, b, x;
+    cout << "Введите число:" << endl;
+    cin >> a;
+    cout << "Введите число:" << endl;
+    cin >> b;
+    if(a==0 && b==0){
+        cout << "Нельзя" << endl;
+    }
+    else 
+        x = a*b;
+    cout << "Ответ" << x << endl;
+    return 0;
+}
+
+C++, 
+begin 10 4
+
+C++, 
+#include <math.h> 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float a, b, x;
+    cout << "Введите число:" << endl;
+    cin >> a;
+    cout << "Введите число:" << endl;
+    cin >> b;
+    if(a==0 && b==0){
+        cout << "Нельзя" << endl;
+    }
+    else 
+        x = pow(a,2)*pow(b,2);
+    cout << "Ответ" << x << endl;
+    return 0;
+}
+
+C++, 
+11 4
+
+C++, 
+#include <math.h> 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float a, b, x;
+    cout << "Введите число:" << endl;
+    cin >> a;
+    cout << "Введите число:" << endl;
+    cin >> b;
+    if(a==0 && b==0){
+        cout << "Нельзя" << endl;
+    }
+    else 
+        x = abs(a)*abs(b);
+    cout << "Ответ " << x << endl;
+    return 0;
+}
+
+C++, 
+11 3
+
+C++, 
+#include <math.h> 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float a, b, x;
+    cout << "Введите число:" << endl;
+    cin >> a;
+    cout << "Введите число:" << endl;
+    cin >> b;
+    if(a==0 && b==0){
+        cout << "Нельзя" << endl;
+    }
+    else 
+        x = a-b;
+    cout << "Ответ" << x << endl;
+    return 0;
+}
+
+C++, 
+11 1
+
+C++, 
+#include <math.h> 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float a, b, x;
+    cout << "Введите число:" << endl;
+    cin >> a;
+    cout << "Введите число:" << endl;
+    cin >> b;
+    if(a==0 && b==0){
+        cout << "Нельзя" << endl;
+    }
+    else 
+        x = a+b;
+    cout << "Ответ" << x << endl;
+    return 0;
+}
+
+C++, 
+11 2
+
+C++, 
+#include <math.h> 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float a, b, x;
+    cout << "Введите число:" << endl;
+    cin >> a;
+    cout << "Введите число:" << endl;
+    cin >> b;
+    if(a==0 && b==0){
+        cout << "Нельзя" << endl;
+    }
+    else 
+        x = a*b;
+    cout << "Ответ" << x << endl;
+    return 0;
+}
+
+C++, 
+begin 12
+
+C++, 
+#include <math.h> 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float a, b, P, c;
+    cout << "Введите число:" << endl;
+    cin >> a;
+    cout << "Введите число:" << endl;
+    cin >> b;
+    P= a+b+c;
+    c= sqrt(pow(a,2)+pow(b,2));
+    
+    cout << "Ответ " << P << ", " <<  c << endl;
+    return 0;
+}
+
+C++, 
+begin 13
+
+C++, 
+#include <math.h> 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float R1, R2, S1, S2, S3, p;
+    cout << "Введите число:" << endl;
+    cin >> R2;
+    cout << "Введите число:" << endl;
+    cin >> R1;
+    p = 3.14;
+    if (R1 < R2)
+        cout << "no" << endl;
+        else 
+            S1 = p*pow(R1,2);
+            S2 = p*pow(R2,2);
+            S3 = S1 - S2;
+    
+    cout << "Ответ " << S1 << ", " <<  S2 << ", " << S3 << endl;
+    return 0;
+}
+
+C++, 
+begin 14
+
+C++, 
+#include <math.h> 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float L, R, S, p;
+    cout << "Введите число:" << endl;
+    cin >> R;
+    p = 3.14;
+    L = 2*p*R;
+    S = p* pow(R,2);
+    cout << "Ответ " << S << ", " <<  L << endl;
+    return 0;
+}
+
+C++, 
+begin 15
+
+C++, 
+#include <math.h> 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float L, S, p, D;
+    cout << "Введите число:" << endl;
+    cin >> D;
+    p = 3.14;
+    L = p*D;
+    S = (p* pow(D,2))/4;
+    cout << "Ответ " << S << ", " <<  L << endl;
+    return 0;
+}
+
+C++, begin 17
+
+C++, 
+#include <math.h> 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float A, B, C, x, AC, BC;
+    cout << "Введите число:" << endl;
+    cin >> A;
+    cout << "Введите число:" << endl;
+    cin >> B;
+    cout << "Введите число:" << endl;
+    cin >> C;
+    AC = A + C;
+    BC = B + C;
+    x = AC + BC;
+    cout << "Ответ " << AC << ", " <<  BC << "," << x << endl;
+    return 0;
+}
+
+C++, 
+begin 18
+
+C++, 
+#include <math.h> 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float A, B, C, x, AC, BC;
+    cout << "Введите число:" << endl;
+    cin >> A;
+    cout << "Введите число:" << endl;
+    cin >> B;
+    cout << "Введите число:" << endl;
+    cin >> C;
+    if ( A < C < B) {
+    AC = A + C;
+    BC = B + C;
+    x = AC * BC;
+    }
+    else 
+    cout << "no" << endl;
+    cout << "Ответ " << AC << ", " <<  BC << "," << x << endl;
+    return 0;
+}
+
+C++, 
+begin 20
+
+C++, 
+#include <math.h> 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float x1, x2, y1, y2, x;
+    cout << "Введите число:" << endl;
+    cin >> x1;
+    cout << "Введите число:" << endl;
+    cin >> x2;
+    cout << "Введите число:" << endl;
+    cin >> y1;
+    cout << "Введите число:" << endl;
+    cin >> y2;
+    x= sqrt(pow((x2-x1),2)+pow((y2-y1),2));
+    cout << "Ответ " << x << endl;
+    return 0;
+}
+
+C++, 
+begin 21
+
+C++, 
+#include <math.h> 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float x1, x2, y1, y2, x, a, b, c, p, S;
+    cout << "Введите число:" << endl;
+    cin >> x1;
+    cout << "Введите число:" << endl;
+    cin >> x2;
+    cout << "Введите число:" << endl;
+    cin >> y1;
+    cout << "Введите число:" << endl;
+    cin >> y2;
+    cout << "Введите число:" << endl;
+    cin >> a;
+    cout << "Введите число:" << endl;
+    cin >> b;
+    cout << "Введите число:" << endl;
+    cin >> c;
+    x= sqrt(pow((x2-x1),2)+pow((y2-y1),2));
+    p= (a+b+c)/2;
+    S= sqrt(p*(p-a)*(p-b)*(p-c));
+    cout << "Ответ " << S << endl;
+    return 0;
+}
+
+C++,  22
+
+C++, 
+#include <math.h> 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float a, b, t;
+    cout << "Введите число:" << endl;
+    cin >> a;
+    cout << "Введите число:" << endl;
+    cin >> b;
+    t=a;
+    a=b;
+    b=t;
+    cout << "Ответ " << a << ", " <<  b  << endl;
+    return 0;
+}
+
+C++, 
+23 and 24 i dont now
+
+C++, 
+begin 25
+
+C++, 
+#include <math.h> 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float x, y;
+    cout << "Введите число:" << endl;
+    cin >> x;
+    y= 3*pow(x,6)-6*pow(x,2)-7;
+    cout << "Ответ " << y  << endl;
+    return 0;
+}
+
+C++,
+begin 26
+
+C++, 
+#include <math.h> 
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float x, y;
+    cout << "Введите число:" << endl;
+    cin >> x;
+    y= 4*pow((x-3),6)-7*pow((x-3),3);
+    cout << "Ответ " << y  << endl;
+    return 0;
+}
+
+C++, 
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+bool isPalindrome(string str) {
+    int len = str.length();
+    for (int i = 0; i < len / 2; i++) {
+        if (str[i] != str[len - 1 - i]) {
+            return false;
+        }
+    }
+    return true;
+}
+
+int main() {
+    string arr[20];
+    int n;
+
+    cout << "Enter the number of strings (max 20): ";
+    cin >> n;
+
+    if (n > 20) {
+        n = 20;
+    }
+
+    cout << "Enter the strings: " << endl;
+    for (int i = 0; i < n; i++) {
+        cin >> arr[i];
+    }
+
+    cout << "The strings are: " << endl;
+    for (int i = 0; i < n; i++) {
+        cout << arr[i] << endl;
+    }
+
+    cout << "Palindromes are: " << endl;
+    for (int i = 0; i < n; i++) {
+        if (isPalindrome(arr[i])) {
+            cout << arr[i] << endl;
+        }
+    }
+
+    return 0;
+}
+
+C++, 
+Ввести массив строк с экрана (не более 20 строк)
+Найти и вывести на экран палиндромы - строки, которые читаются одинаково в обоих направлениях.
+
+C++, [06.04.2023 11:48]
+Написать программу для выполнения следующих действий:
+Создать список товаров. Для каждого товара должна храниться следующая информация: наименование, стоимость, срок годности и т.п. (предложите сами). Сравнение товаров проводить по наименованию.
+Ввести товаров с клавиатуры (не более 10 товаров).
+Ввести наименование товара с клавиатуры.
+Найти товар с заданным наименованием в списке и, если найден, вывести всю информацию о нём.
+
+C++, 
+#include <iostream>
+#include <string>
+#include <vector>
+
+using namespace std;
+
+struct Product {
+    string name;
+    float price;
+    int expirationDate;
+};
+
+int main() {
+    vector<Product> products;
+
+    // запрос количества товаров у пользователя
+    int n;
+    cout << "Введите количество товаров: ";
+    cin >> n;
+
+    // добавление товаров в список
+    for (int i = 0; i < n; i++) {
+        Product p;
+        cout << "Введите наименование товара: ";
+        cin >> p.name;
+        cout << "Введите стоимость товара: ";
+        cin >> p.price;
+        cout << "Введите срок годности товара (в днях): ";
+        cin >> p.expirationDate;
+        products.push_back(p);
+    }
+
+    // запрос наименования товара у пользователя
+    string inputName;
+    cout << "Введите наименование товара: ";
+    cin >> inputName;
+
+    // вывод информации о товарах с указанным наименованием
+    bool found = false;
+    for (int i = 0; i < products.size(); i++) {
+        if (products[i].name == inputName) {
+            cout << "Наименование товара: " << products[i].name << endl;
+            cout << "Стоимость товара: " << products[i].price << endl;
+            cout << "Срок годности товара: " << products[i].expirationDate << " дней" << endl;
+            cout << endl;
+            found = true;
+        }
+    }
+
+    // сообщение о том, что товар не найден
+    if (found == false) {
+        cout << "Товар с указанным наименованием не найден." << endl;
+    }
+
+    return 0;
+}
+
+C++, 
+begin 32
+
+C++, 
+#include <iostream>
+using namespace std;
+
+int main() {
+    float Tc, Tk;
+    cout << "Введите значение температуры в градусах Цельсия: ";
+    cin >> Tc;
+    Tk = Tc * 9/5 + 32;
+    cout << "Значение температуры в градусах Фаренгейта: " << Tk << endl;
+    return 0;
+}
+
+C++, 
+begin 33
+
+C++, 
+#include <iostream>
+using namespace std;
+
+int main() {
+    double x, a, price1kg, priceYkg;
+    int y;
+    cout << "Введите количество кг конфет (X): ";
+    cin >> x;
+    cout << "Введите стоимость конфет (A): ";
+    cin >> a;
+    cout << "Введите количество кг конфет (Y): ";
+    cin >> y;
+    price1kg = a / x;
+    priceYkg = price1kg * y;
+    cout << "Цена 1 кг конфет: " << price1kg << " руб." << endl;
+    cout << "Цена " << y << " кг конфет: " << priceYkg << " руб." << endl;
+    return 0;
+}
+
+C++, 
+begin 34
+
+C++, 
+#include <iostream>
+using namespace std;
+
+int main() {
+    double x, y, a, b; // вводим переменные для веса и стоимости
+    cout << "Введите вес шоколадных конфет (в кг): ";
+    cin >> x;
+    cout << "Введите стоимость шоколадных конфет (в рублях): ";
+    cin >> a;
+    cout << "Введите вес ирисок (в кг): ";
+    cin >> y;
+    cout << "Введите стоимость ирисок (в рублях): ";
+    cin >> b;
+
+    double costchoco = a / x; // стоимость 1 кг шоколадных конфет
+    double costiris = b / y; // стоимость 1 кг ирисок
+    double ratio = costchoco / costiris; // отношение стоимости шоколадных конфет к ирискам
+
+    cout << "1 кг шоколадных конфет стоит " << costchoco << " рублей" << endl;
+    cout << "1 кг ирисок стоит " << costiris << " рублей" << endl;
+    cout << "Шоколадные конфеты дороже ирисок в " << ratio << " раз(а)" << endl;
+
+    return 0;
+}
+
+C++, 
+begin 35
+
+C++, 
+#include <iostream>
+using namespace std;
+
+int main() {
+    double V, U, T1, T2, S1, S2, S;
+    cout << "Введите скорость лодки в стоячей воде (км/ч): ";
+    cin >> V;
+    cout << "Введите скорость течения реки (км/ч): ";
+    cin >> U;
+    cout << "Введите время движения лодки по озеру (ч): ";
+    cin >> T1;
+    cout << "Введите время движения лодки против течения реки (ч): ";
+    cin >> T2;
+
+    // Расчет расстояний
+    S1 = V  T1;
+    S2 = (V - U)  T2;
+
+    // Общий пройденный путь
+    S = S1 + S2;
+
+    cout << "Пройденный путь: " << S << " км" << endl;
+
+    return 0;
+}
+
+C++, 
+begin36
+
+C++, 
+#include <iostream>
+using namespace std;
+
+int main() {
+    double v1, v2, s, t; // объявляем переменные
+
+    cout << "Введите скорость первого автомобиля (км/ч): ";
+    cin >> v1;
+    cout << "Введите скорость второго автомобиля (км/ч): ";
+    cin >> v2;
+    cout << "Введите расстояние между автомобилями (км): ";
+    cin >> s;
+    cout << "Введите время движения (ч): ";
+    cin >> t;
+
+    double stotal = s + t * (v1/3.6 + v2); // вычисляем общий путь
+    cout << "Расстояние между автомобилями через " << t << " часов: " << stotal << " км";
+
+    return 0;
+}
+
+C++, 
+begin 37
+
+C++, 
+#include <iostream>
+using namespace std;
+
+int main() {
+    double v1, v2, s, t; // объявляем переменные
+
+    cout << "Введите скорость первого автомобиля (км/ч): ";
+    cin >> v1;
+    cout << "Введите скорость второго автомобиля (км/ч): ";
+    cin >> v2;
+    cout << "Введите расстояние между автомобилями (км): ";
+    cin >> s;
+    cout << "Введите время движения (ч): ";
+    cin >> t;
+
+    double s_total = s - t * (v1/3.6 + v2/3.6); // вычисляем общий путь
+    s_total = abs(s_total); // находим модуль разности
+    cout << "Расстояние между автомобилями через " << t << " часов: " << s_total << " км";
+
+    return 0;
+}
+
+C++, 
+begin 38
+
+C++, 
+#include <iostream>
+using namespace std;
+
+int main() {
+    double v1, v2, s, t; // объявляем переменные
+
+    cout << "Введите скорость первого автомобиля (км/ч): ";
+    cin >> v1;
+    cout << "Введите скорость второго автомобиля (км/ч): ";
+    cin >> v2;
+    cout << "Введите расстояние между автомобилями (км): ";
+    cin >> s;
+    cout << "Введите время движения (ч): ";
+    cin >> t;
+
+    double s_total = s - t * (v1/3.6 + v2/3.6); // вычисляем общий путь
+    s_total = abs(s_total); // находим модуль разности
+    cout << "Расстояние между автомобилями через " << t << " часов: " << s_total << " км";
+
+    return 0;
+}
+
+C++, 
+integer1
+
+C++, 
+#include <iostream>
+using namespace std;
+
+int main() {
+    int L; // объявляем переменную
+
+    cout << "Введите расстояние в сантиметрах: ";
+    cin >> L;
+
+    int meters = L / 100; // находим количество полных метров
+
+    cout << "Количество полных метров: " << meters;
+
+    return 0;
+}
+
+C++, 
+integer2
+
+C++, 
+#include <iostream>
+using namespace std;
+
+int main() {
+    double M; // объявляем переменную
+
+    cout << "Введите массу в килограммах: ";
+    cin >> M;
+
+    int tons = M / 1000; // находим количество полных тонн
+
+    cout << "Количество полных тонн: " << tons;
+
+    return 0;
+}
+
+C++, 
+integer3
+
+C++, 
+#include <iostream>
+using namespace std;
+
+int main() {
+    int fileSize; // объявляем переменную
+
+    cout << "Введите размер файла в байтах: ";
+    cin >> fileSize;
+
+    int kiloBytes = fileSize / 1024; // находим количество полных килобайтов
+
+    cout << "Количество полных килобайтов: " << kiloBytes;
+
+    return 0;
+}
+
+C++, 
+integer4
+
+C++, 
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b, count;
+    cout << "Введите длину отрезка А: ";
+    cin >> a;
+    cout << "Введите длину отрезка В: ";
+    cin >> b;
+    count = a / b;
+    cout << "Количество отрезков В на отрезке А: " << count << endl;
+    return 0;
+}
+
+C++, 
+integer5
+
+C++, 
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int a, b;
+    cout << "Введите длину отрезка A: ";
+    cin >> a;
+    cout << "Введите длину отрезка B (B < A): ";
+    cin >> b;
+
+    int unused = a % b;
+    cout << "Длина незанятой части отрезка A: " << unused << endl;
+
+    return 0;
+}
+
+C++, 
+integer6
+
+C++, 
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num, tens, ones;
+    cout << "Введите двузначное число: ";
+    cin >> num;
+    tens = num / 10; // находим десятки
+    ones = num % 10; // находим единицы
+    cout << "Десятки: " << tens << endl;
+    cout << "Единицы: " << ones << endl;
+    return 0;
+}
+
+C++, 
+integer7
+
+C++, 
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int num, first, second, sum, product;
+
+    cout << "Введите двузначное число: ";
+    cin >> num;
+
+    first = num / 10; // находим первую цифру
+    second = num % 10; // находим вторую цифру
+
+    sum = first + second; // находим сумму цифр
+    product = first * second; // находим произведение цифр
+
+    cout << "Сумма цифр: " << sum << endl;
+    cout << "Произведение цифр: " << product << endl;
+
+    return 0;
+
+C++, 
+integer8
+
+C++, 
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    cout << "Введите двузначное число: ";
+    cin >> n;
+    int a = n / 10; // первая цифра
+    int b = n % 10; // вторая цифра
+    int m = b * 10 + a; // переставленное число
+    cout << "Переставленное число: " << m << endl;
+    return 0;
+}
+
+C++, 
+integer9
+
+C++, 
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    cout << "Введите трехзначное число: ";
+    cin >> num;
+    cout << "Первая цифра числа: " << num/100 << endl;
+    return 0;
+}
+
+C++, [14.04.2023 12:47]
+integer10
+
+C++, [14.04.2023 12:51]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num, a, b, c, sum, prod;
+    cout << "Введите трехзначное число: ";
+    cin >> num;
+
+    a = num / 100;
+    b = (num / 10) % 10;
+    c = num % 10;
+
+    sum = a + b + c;
+    prod = a  b  c;
+
+    cout << "Сумма шифр числа " << num << " равна " << sum << endl;
+    cout << "Произведение шифр числа " << num << " равно " << prod << endl;
+
+    return 0;
+}
+
+C++, [14.04.2023 12:58]
+integer12
+
+C++, [14.04.2023 12:58]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num, a, b, c;
+    cout << "Введите трехзначное число: ";
+    cin >> num;
+
+    a = num / 100;
+    b = (num / 10) % 10;
+    c = num % 10;
+
+    cout << "Число, полученное при прочтении исходного числа справа налево: " << c << b << a << endl;
+
+    return 0;
+}
+
+C++, [14.04.2023 12:59]
+integer11
+
+C++, [14.04.2023 12:59]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num, a, b, c, sum, prod;
+    cout << "Введите трехзначное число: ";
+    cin >> num;
+
+    a = num / 100;
+    b = (num / 10) % 10;
+    c = num % 10;
+
+    sum = a + b + c;
+    prod = a  b  c;
+
+    cout << "Сумма шифр числа " << num << " равна " << sum << endl;
+    cout << "Произведение шифр числа " << num << " равно " << prod << endl;
+
+    return 0;
+}
+
+C++, [14.04.2023 13:00]
+integer13
+
+C++, [14.04.2023 13:00]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num, a, b, c;
+    cout << "Введите трехзначное число: ";
+    cin >> num;
+
+    a = num / 100;
+    b = (num / 10) % 10;
+    c = num % 10;
+
+    cout << "Число, полученное при зачеркивании первой цифры слева и приписывании ее справа: " << b << c << a << endl;
+
+    return 0;
+}
+
+C++, [14.04.2023 13:01]
+integer14
+
+C++, [14.04.2023 13:01]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num, a, b, c;
+    cout << "Введите трехзначное число: ";
+    cin >> num;
+
+    a = num / 100;
+    b = (num / 10) % 10;
+    c = num % 10;
+
+    cout << "Число, полученное при зачеркивании первой цифры слева и приписывании ее справа: " << c << a << b << endl;
+
+    return 0;
+}
+
+C++, [14.04.2023 13:03]
+integer20
+
+C++, [14.04.2023 13:03]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int N, hours;
+    cout << "Введите количество секунд, прошедших с начала суток: ";
+    cin >> N;
+
+    hours = N / 3600; // один час равен 3600 секундам
+
+    cout << "Прошло полных часов: " << hours << endl;
+
+    return 0;
+}
+
+C++, [14.04.2023 13:04]
+integer21
+
+C++, [14.04.2023 13:04]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int N, seconds;
+    cout << "Введите количество секунд, прошедших с начала суток: ";
+    cin >> N;
+
+    seconds = N % 60; // остаток от деления на 60 даст количество секунд, прошедших с начала последней минуты
+
+    cout << "С начала последней минуты прошло: " << seconds << " секунд" << endl;
+
+    return 0;
+}
+
+C++, [14.04.2023 13:08]
+integer22
+
+C++, [14.04.2023 13:08]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int N, seconds;
+    cout << "Введите количество секунд, прошедших с начала суток: ";
+    cin >> N;
+
+    seconds = N % 3600; // остаток от деления на 3600 даст количество секунд, прошедших с начала последнего часа
+
+    cout << "С начала последнего часа прошло: " << seconds << " секунд" << endl;
+
+    return 0;
+}
+
+C++, [14.04.2023 13:14]
+iteger23
+
+C++, [14.04.2023 13:14]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int N, seconds, minutes;
+    cout << "Введите количество секунд, прошедших с начала суток: ";
+    cin >> N;
+
+    seconds = N % 3600; // остаток от деления на 3600 даст количество секунд, прошедших с начала последнего часа
+    minutes = seconds / 60; // количество полных минут в количестве секунд
+
+    cout << "С начала последнего часа прошло: " << minutes << " минут" << endl;
+
+    return 0;
+
+C++, [14.04.2023 13:19]
+integer24
+
+C++, [14.04.2023 13:19]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int K;
+    cout << "Введите номер дня года (1-365): ";
+    cin >> K;
+
+    int dayOfWeek = (K + 0) % 7; // вычисляем остаток от деления на 7, чтобы определить номер дня недели
+    cout << "Номер дня недели для " << K << "-го дня года: " << dayOfWeek << endl;
+
+    return 0;
+}
+
+C++, [30.04.2023 12:31]
+Boolean 1
+
+C++, [30.04.2023 12:31]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a;
+    cout << "Введите число: ";
+    cin >> a;
+    if (a > 0) {
+        cout << "Число " << a << " является положительным." << endl;
+    } else {
+        cout << "Число " << a << " не является положительным." << endl;
+    }
+    return 0;
+}
+
+C++, [30.04.2023 12:32]
+Boolean 2
+
+C++, [30.04.2023 12:33]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a;
+    cout << "Введите число: ";
+    cin >> a;
+    if (a % 2 != 0) {
+        cout << "Число " << a << " является нечетным." << endl;
+    } else {
+        cout << "Число " << a << " является четным." << endl;
+    }
+    return 0;
+}
+
+C++, [30.04.2023 12:34]
+Boolean 3
+
+C++, [30.04.2023 12:34]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int A;
+    cout << "Введите число: ";
+    cin >> A;
+    if (A % 2 == 0) {
+        cout << "Число " << A << " является четным." << endl;
+    } else {
+        cout << "Число " << A << " является нечетным." << endl;
+    }
+    return 0;
+}
+
+C++, [30.04.2023 12:37]
+Boolean 4
+
+C++, [30.04.2023 12:37]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int A, B;
+    cout << "Введите два числа: ";
+    cin >> A >> B;
+    if (A > 2 && B <= 3) {
+        cout << "Высказывание истинно." << endl;
+    } else {
+        cout << "Высказывание ложно." << endl;
+    }
+    return 0;
+}
+
+C++, [30.04.2023 12:39]
+Boolean 5
+
+C++, [30.04.2023 12:39]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int A, B;
+    cout << "Введите два числа: ";
+    cin >> A >> B;
+    if (A >= 0 || B < -2) {
+        cout << "Высказывание истинно." << endl;
+    } else {
+        cout << "Высказывание ложно." << endl;
+    }
+    return 0;
+}
+
+C++, [30.04.2023 12:41]
+Boolean 6
+
+C++, [30.04.2023 12:41]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int A, B, C;
+    cout << "Введите три числа: ";
+    cin >> A >> B >> C;
+    if (A < B && B < C) {
+        cout << "Высказывание истинно." << endl;
+    } else {
+        cout << "Высказывание ложно." << endl;
+    }
+    return 0;
+}
+
+C++, [30.04.2023 12:45]
+Boolean 7
+
+C++, [30.04.2023 12:45]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b, c;
+    cout << "Введите три числа: ";
+    cin >> a >> b >> c;
+    if (b > a && b < c) {
+        cout << "Число " << b << " находится между числами " << a << " и " << c << endl;
+    } else {
+        cout << "Число " << b << " не находится между числами " << a << " и " << c << endl;
+    }
+    return 0;
+}
+
+C++, [30.04.2023 12:46]
+Boolean 8
+
+C++, [30.04.2023 12:46]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b;
+    cout << "Введите два числа: ";
+    cin >> a >> b;
+    if (a % 2 != 0 && b % 2 != 0) {
+        cout << "Каждое из чисел " << a << " и " << b << " нечетное" << endl;
+    } else {
+        cout << "Не каждое из чисел " << a << " и " << b << " нечетное" << endl;
+    }
+    return 0;
+}
+
+C++, [30.04.2023 12:49]
+Boolean 9
+
+C++, [30.04.2023 12:50]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b;
+    cout << "Введите два числа: ";
+    cin >> a >> b;
+    if (a % 2 != 0 || b % 2 != 0) {
+        cout << "Хотя бы одно из чисел " << a << " и " << b << " нечетное" << endl;
+    } else {
+        cout << "Оба числа " << a << " и " << b << " четные" << endl;
+    }
+    return 0;
+}
+
+C++, [30.04.2023 19:52]
+Boolean 10
+
+C++, [30.04.2023 19:52]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b;
+    cout << "Введите два числа: ";
+    cin >> a >> b;
+    if ((a % 2 != 0 && b % 2 == 0) || (a % 2 == 0 && b % 2 != 0)) {
+        cout << "Ровно одно из чисел " << a << " и " << b << " нечетное" << endl;
+    } else {
+        cout << "Условие не выполнено" << endl;
+    }
+    return 0;
+}
+
+C++, [30.04.2023 19:53]
+Boolean 11
+
+C++, [30.04.2023 19:53]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b;
+    cout << "Введите два числа: ";
+    cin >> a >> b;
+    if ((a % 2 != 0 && b % 2 == 0) || (a % 2 == 0 && b % 2 != 0)) {
+        cout << "Ровно одно из чисел " << a << " и " << b << " нечетное" << endl;
+    } else {
+        cout << "Условие не выполнено" << endl;
+    }
+    return 0;
+}
+
+C++, [30.04.2023 19:55]
+Boolean 12
+
+C++, [30.04.2023 19:55]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b, c;
+    cout << "Введите три числа: ";
+    cin >> a >> b >> c;
+    if (a > 0 && b > 0 && c > 0) {
+        cout << "Каждое из чисел А, В, С положительное" << endl;
+    } else {
+        cout << "Не все числа А, В, С положительные" << endl;
+    }
+    return 0;
+
+C++, [30.04.2023 19:56]
+Boolean 13
+
+C++, [30.04.2023 19:56]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b, c;
+    cout << "Введите три числа: ";
+    cin >> a >> b >> c;
+    if (a > 0 && b > 0 && c > 0) {
+        cout << "Каждое из чисел А, В, С положительное" << endl;
+    } else {
+        cout << "Не все числа А, В, С положительные" << endl;
+    }
+    return 0;
+}
+
+C++, [30.04.2023 19:58]
+Boolean 14
+
+C++, [30.04.2023 19:58]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b, c;
+    cout << "Введите три числа: ";
+    cin >> a >> b >> c;
+    int positiveCount = 0;
+    if (a > 0) {
+        positiveCount++;
+    }
+    if (b > 0) {
+        positiveCount++;
+    }
+    if (c > 0) {
+        positiveCount++;
+    }
+    if (positiveCount == 1) {
+        cout << "Ровно одно из чисел А, В, С положительное" << endl;
+    } else {
+        cout << "Не ровно одно из чисел А, В, С положительное" << endl;
+    }
+    return 0;
+}
+
+C++, [30.04.2023 19:59]
+Boolean 15
+
+C++, [30.04.2023 19:59]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b, c;
+    cout << "Введите три числа: ";
+    cin >> a >> b >> c;
+    int positiveCount = 0;
+    if (a > 0) {
+        positiveCount++;
+    }
+    if (b > 0) {
+        positiveCount++;
+    }
+    if (c > 0) {
+        positiveCount++;
+    }
+    if (positiveCount == 2) {
+        cout << "Ровно два из чисел А, В, С положительные" << endl;
+    } else {
+        cout << "Не ровно два из чисел А, В, С положительные" << endl;
+    }
+    return 0;
+}
+
+C++, [30.04.2023 20:13]
+Boolean 16
+
+C++, [30.04.2023 20:13]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int number;
+    cout << "Введите целое положительное число: ";
+    cin >> number;
+    if (number >= 10 && number <= 99 && number % 2 == 0) {
+        cout << "Данное число является четным двузначным" << endl;
+    } else {
+        cout << "Данное число не является четным двузначным" << endl;
+    }
+    return 0;
+}
+
+C++, [30.04.2023 20:14]
+Boolean 17
+
+C++, [30.04.2023 20:15]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int number;
+    cout << "Введите целое положительное число: ";
+    cin >> number;
+    if (number >= 100 && number <= 999 && number % 2 != 0) {
+        cout << "Данное число является нечетным трехзначным" << endl;
+    } else {
+        cout << "Данное число не является нечетным трехзначным" << endl;
+    }
+    return 0;
+}
+
+C++, [30.04.2023 20:29]
+Boolean 18
+
+C++, [30.04.2023 20:29]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b, c;
+    cout << "Введите три целых числа: ";
+    cin >> a >> b >> c;
+    if (a == b  b == c  a == c) {
+        cout << "Среди трех данных целых чисел есть хотя бы одна пара совпадающих" << endl;
+    } else {
+        cout << "Среди трех данных целых чисел нет совпадающих пар" << endl;
+    }
+    return 0;
+}
+
+C++, [30.04.2023 20:32]
+Boolean 19
+
+C++, [30.04.2023 20:32]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b, c;
+    cout << "Введите три целых числа: ";
+    cin >> a >> b >> c;
+    if ((a == -b)  (b == -c)  (a == -c)) {
+        cout << "Среди трех данных целых чисел есть хотя бы одна пара взаимно противоположных" << endl;
+    } else {
+        cout << "Среди трех данных целых чисел нет взаимно противоположных пар" << endl;
+    }
+    return 0;
+}
+
+C++, [30.04.2023 20:34]
+Boolean 20
+
+C++, [30.04.2023 20:35]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    cout << "Введите трехзначное число: ";
+    cin >> num;
+    int a = num / 100; // первая цифра
+    int b = (num / 10) % 10; // вторая цифра
+    int c = num % 10; // третья цифра
+    if ((a != b) && (b != c) && (a != c)) {
+        cout << "Все цифры данного числа различны" << endl;
+    } else {
+        cout << "Не все цифры данного числа различны" << endl;
+    }
+    return 0;
+}
+
+C++, [30.04.2023 20:38]
+Boolean 21
+
+C++, [30.04.2023 20:38]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    cout << "Введите трехзначное число: ";
+    cin >> num;
+
+    int first = num / 100;
+    int second = (num / 10) % 10;
+    int third = num % 10;
+
+    if (first < second && second < third) {
+        cout << "Цифры данного числа образуют возрастающую последовательность";
+    } else {
+        cout << "Цифры данного числа не образуют возрастающую последовательность";
+    }
+
+    return 0;
+}
+
+C++, [30.04.2023 20:45]
+Boolean 22
+
+C++, [30.04.2023 20:45]
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int num, first, second, third;
+    bool isIncreasing = false, isDecreasing = false;
+
+    cout << "Введите трехзначное число: ";
+    cin >> num;
+
+    // Разделение числа на цифры
+    first = num / 100;
+    second = (num / 10) % 10;
+    third = num % 10;
+
+    // Проверка на возрастающую последовательность
+    if (first < second && second < third) {
+        isIncreasing = true;
+    }
+
+    // Проверка на убывающую последовательность
+    if (first > second && second > third) {
+        isDecreasing = true;
+    }
+
+    // Вывод результата проверки
+    if (isIncreasing || isDecreasing) {
+        cout << "Цифры данного числа образуют возрастающую или убывающую последовательность" << endl;
+    } else {
+        cout << "Цифры данного числа не образуют возрастающую или убывающую последовательность" << endl;
+    }
+
+    return 0;
+}
+```
+
+C++, [30.04.2023 20:46]
+Boolean 23
+
+C++, [30.04.2023 20:48]
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int num, rev = 0, temp;
+    cout << "Введите четырехзначное число: ";
+    cin >> num;
+    temp = num;
+    while (temp != 0) {
+        rev = rev * 10 + temp % 10;
+        temp /= 10;
+    }
+    if (num == rev) {
+        cout << "Данное число читается одинаково слева направо и справа налево";
+    } else {
+        cout << "Данное число не читается одинаково слева направо и справа налево";
+    }
+    return 0;
+}
+
+C++, [30.04.2023 20:53]
+Boolean 24
+
+C++, [30.04.2023 20:53]
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int num, rev = 0, temp;
+    cout << "Введите четырехзначное число: ";
+    cin >> num;
+    temp = num;
+    while (temp != 0) {
+        rev = rev * 10 + temp % 10;
+        temp /= 10;
+    }
+    if (num == rev) {
+        cout << "Данное число читается одинаково слева направо и справа налево";
+    } else {
+        cout << "Данное число не читается одинаково слева направо и справа налево";
+    }
+    return 0;
+}
+
+C++, [30.04.2023 20:54]
+Boolean 25
+
+C++, [30.04.2023 20:55]
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int num, rev = 0, temp;
+    cout << "Введите четырехзначное число: ";
+    cin >> num;
+    temp = num;
+    while (temp != 0) {
+        rev = rev * 10 + temp % 10;
+        temp /= 10;
+    }
+    if (num == rev) {
+        cout << "Данное число читается одинаково слева направо и справа налево";
+    } else {
+        cout << "Данное число не читается одинаково слева направо и справа налево";
+    }
+    return 0;
+}
+
+C++, [30.04.2023 20:59]
+if1
+
+C++, [30.04.2023 20:59]
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int num;
+    cout << "Введите целое число: ";
+    cin >> num;
+    if (num > 0) {
+        num += 1;
+    }
+    cout << "Результат: " << num << endl;
+    return 0;
+}
+
+C++, [30.04.2023 21:00]
+if2
+
+C++, [30.04.2023 21:00]
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int n;
+    cout << "Введите целое число: ";
+    cin >> n;
+    if (n > 0) {
+        n += 1;
+    } else {
+        n -= 2;
+    }
+    cout << "Результат: " << n << endl;
+    return 0;
+}
+
+C++, [30.04.2023 21:04]
+If3
+
+C++, [30.04.2023 21:04]
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+    if (n > 0) {
+        n += 1;
+    } else if (n < 0) {
+        n -= 2;
+    } else {
+        n = 10;
+    }
+    cout << n << endl;
+    return 0;
+}
+
+C++, [30.04.2023 21:09]
+if4
+
+C++, [30.04.2023 21:09]
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int a, b, c;
+    int count = 0; // переменная для подсчета количества положительных чисел
+
+    cout << "Введите три целых числа: ";
+    cin >> a >> b >> c;
+
+    if (a > 0) {
+        count++;
+    }
+    if (b > 0) {
+        count++;
+    }
+    if (c > 0) {
+        count++;
+    }
+
+    cout << "Количество положительных чисел: " << count << endl;
+
+    return 0;
+}
+
+C++, [30.04.2023 21:10]
+if5
+
+C++, [30.04.2023 21:10]
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int a, b, c;
+    int positive = 0, negative = 0;
+
+    cout << "Введите три целых числа: ";
+    cin >> a >> b >> c;
+
+    if (a > 0) {
+        positive++;
+    } else if (a < 0) {
+        negative++;
+    }
+
+    if (b > 0) {
+        positive++;
+    } else if (b < 0) {
+        negative++;
+    }
+
+    if (c > 0) {
+        positive++;
+    } else if (c < 0) {
+        negative++;
+    }
+
+    cout << "Количество положительных чисел: " << positive << endl;
+    cout << "Количество отрицательных чисел: " << negative << endl;
+
+    return 0;
+}
+
+C++, [30.04.2023 21:19]
+if10
+
+C++, [30.04.2023 21:19]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b;
+    cout << "Введите значение a: ";
+    cin >> a;
+    cout << "Введите значение b: ";
+    cin >> b;
+    
+    if (a != b) {
+        a = a + b;
+        b = a;
+    } else {
+        a = 0;
+        b = 0;
+    }
+    
+    cout << "Новое значение a: " << a << endl;
+    cout << "Новое значение b: " << b << endl;
+    
+    return 0;
+}
+
+C++, [30.04.2023 21:22]
+if 11
+
+C++, [30.04.2023 21:22]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b;
+    cout << "Введите значение a: ";
+    cin >> a;
+    cout << "Введите значение b: ";
+    cin >> b;
+    
+    if (a != b) {
+        if (a > b) {
+            b = a;
+        } else {
+            a = b;
+        }
+    } else {
+        a = 0;
+        b = 0;
+    }
+    
+    cout << "Новое значение a: " << a << endl;
+    cout << "Новое значение b: " << b << endl;
+    
+    return 0;
+}
+
+C++, [30.04.2023 21:25]
+if12
+
+C++, [30.04.2023 21:25]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b, c;
+    cout << "Введите первое число: ";
+    cin >> a;
+    cout << "Введите второе число: ";
+    cin >> b;
+    cout << "Введите третье число: ";
+    cin >> c;
+    
+    int min = a;
+    
+    if (b < min) {
+        min = b;
+    }
+    if (c < min) {
+        min = c;
+    }
+    
+    cout << "Наименьшее число: " << min << endl;
+    
+    return 0;
+}
+
+C++, [30.04.2023 21:26]
+if13
+
+C++, [30.04.2023 21:27]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b, c;
+    cout << "Введите первое число: ";
+    cin >> a;
+    cout << "Введите второе число: ";
+    cin >> b;
+    cout << "Введите третье число: ";
+    cin >> c;
+    
+    int mid = a;
+    
+    if (b < a && b > c  b > a && b < c) {
+        mid = b;
+    }
+    if (c < a && c > b  c > a && c < b) {
+        mid = c;
+    }
+    
+    cout << "Среднее число: " << mid << endl;
+    
+    return 0;
+}
+
+C++, [30.04.2023 21:37]
+if14
+
+C++, [30.04.2023 21:37]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b, c;
+    cout << "Введите первое число: ";
+    cin >> a;
+    cout << "Введите второе число: ";
+    cin >> b;
+    cout << "Введите третье число: ";
+    cin >> c;
+    
+    int min_num = a, max_num = a;
+    
+    if (b < min_num) {
+        min_num = b;
+    } else if (b > max_num) {
+        max_num = b;
+    }
+    
+    if (c < min_num) {
+        min_num = c;
+    } else if (c > max_num) {
+        max_num = c;
+    }
+    
+    cout << "Минимальное число: " << min_num << endl;
+    cout << "Максимальное число: " << max_num << endl;
+    
+    return 0;
+}
+
+C++, [30.04.2023 21:53]
+if15
+
+C++, [30.04.2023 21:53]
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b, c;
+    cout << "Введите первое число: ";
+    cin >> a;
+    cout << "Введите второе число: ";
+    cin >> b;
+    cout << "Введите третье число: ";
+    cin >> c;
+    
+    int min_num = a, max_num = a;
+    
+    if (b < min_num) {
+        min_num = b;
+    } else if (b > max_num) {
+        max_num = b;
+    }
+    
+    if (c < min_num) {
+        min_num = c;
+    } else if (c > max_num) {
+        max_num = c;
+    }
+    
+    cout << "Минимальное число: " << min_num << endl;
+    cout << "Максимальное число: " << max_num << endl;
+    
+    return 0;
+}
+
+C++, [30.04.2023 22:01]
+if16
+
+C++, [30.04.2023 22:01]
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+int main() {
+    double a, b, c;
+    cout << "Введите первое число: ";
+    cin >> a;
+    cout << "Введите второе число: ";
+    cin >> b;
+    cout << "Введите третье число: ";
+    cin >> c;
+    
+    if (a <= b && b <= c) {
+        a *= 2;
+        b *= 2;
+        c *= 2;
+    } else {
+        a = -a;
+        b = -b;
+        c = -c;
+    }
+    
+    cout << "Новое значение А: " << a << endl;
+    cout << "Новое значение B: " << b << endl;
+    cout << "Новое значение C: " << c << endl;
+    
+    return 0;
+}
+
+C++, [30.04.2023 22:06]
+if17
+
+C++, [30.04.2023 23:48]
+#include <iostream>
+
+int main()
+{
+    double a, b, c;
+    std::cout << "Введите первое число: ";
+    std::cin >> a;
+    std::cout << "Введите второе число: ";
+    std::cin >> b;
+    std::cout << "Введите третье число: ";
+    std::cin >> c;
+
+    if ((a <= b && b <= c) || (a >= b && b >= c))
+    {
+        a *= 2;
+        b *= 2;
+        c *= 2;
+    }
+    else
+    {
+        a = -a;
+        b = -b;
+        c = -c;
+    }
+
+    std::cout << "Новое значение А: " << a << std::endl;
+    std::cout << "Новое значение B: " << b << std::endl;
+    std::cout << "Новое значение C: " << c << std::endl;
+
+    return 0;
+}
+
+C++, [30.04.2023 23:55]
+if18
+
+C++, [30.04.2023 23:55]
+#include <iostream>
+
+int main() {
+    int a, b, c;
+    std::cout << "Введите первое число: ";
+    std::cin >> a;
+    std::cout << "Введите второе число: ";
+    std::cin >> b;
+    std::cout << "Введите третье число: ";
+    std::cin >> c;
+    
+    if (a == b && b != c) {
+        std::cout << "3" << std::endl;
+    } else if (a == c && c != b) {
+        std::cout << "2" << std::endl;
+    } else if (b == c && c != a) {
+        std::cout << "1" << std::endl;
+    } else {
+        std::cout << "Нет отличающихся чисел" << std::endl;
+    }
+
+    return 0;
+}
+
+C++, [01.05.2023 0:03]
+if19
+
+C++, [01.05.2023 0:07]
+#include <iostream>
+
+int main() {
+    int a, b, c, d;
+    std::cout << "Введите первое число: ";
+    std::cin >> a;
+    std::cout << "Введите второе число: ";
+    std::cin >> b;
+    std::cout << "Введите третье число: ";
+    std::cin >> c;
+    std::cout << "Введите четвертое число: ";
+    std::cin >> d;
+
+    if (a == b && b == c && c != d) {
+        std::cout << "4" << std::endl;
+    } else if (a == b && b == d && d != c) {
+        std::cout << "3" << std::endl;
+    } else if (a == c && c == d && d != b) {
+        std::cout << "2" << std::endl;
+    } else if (b == c && c == d && d != a) {
+        std::cout << "1" << std::endl;
+    } else {
+        std::cout << "Нет отличающихся чисел" << std::endl;
+    }
+
+    return 0;
+}
+
+C++, [01.05.2023 0:08]
+if20
+
+C++, [01.05.2023 0:08]
+#include <iostream>
+#include <cmath> // для использования функции sqrt и pow
+
+int main() {
+    int a, b, c;
+    std::cout << "Введите координату точки A: ";
+    std::cin >> a;
+    std::cout << "Введите координату точки B: ";
+    std::cin >> b;
+    std::cout << "Введите координату точки C: ";
+    std::cin >> c;
+
+    // Вычисляем расстояние от А до В и от А до С
+    int distance_b = abs(b - a);
+    int distance_c = abs(c - a);
+
+    if (distance_b < distance_c) {
+        std::cout << "Точка В ближе к точке А на " << distance_b << std::endl;
+    } else {
+        std::cout << "Точка С ближе к точке А на " << distance_c << std::endl;
+    }
+
+    return 0;
+}
+
+C++, [01.05.2023 0:09]
+Case1
+
+C++, [01.05.2023 0:09]
+#include <iostream>
+
+int main() {
+    int day;
+    std::cout << "Введите число от 1 до 7: ";
+    std::cin >> day;
+
+    switch (day) {
+        case 1:
+            std::cout << "понедельник" << std::endl;
+            break;
+        case 2:
+            std::cout << "вторник" << std::endl;
+            break;
+        case 3:
+            std::cout << "среда" << std::endl;
+            break;
+        case 4:
+            std::cout << "четверг" << std::endl;
+            break;
+        case 5:
+            std::cout << "пятница" << std::endl;
+            break;
+        case 6:
+            std::cout << "суббота" << std::endl;
+            break;
+        case 7:
+            std::cout << "воскресенье" << std::endl;
+            break;
+        default:
+            std::cout << "Некорректное число" << std::endl;
+            break;
+    }
+
+    return 0;
+}
+
+C++, [01.05.2023 0:11]
+Case2
+
+C++, [01.05.2023 0:11]
+#include <iostream>
+
+int main() {
+    int mark;
+    std::cout << "Введите целое число от 1 до 5: ";
+    std::cin >> mark;
+
+    switch (mark) {
+        case 1:
+            std::cout << "плохо" << std::endl;
+            break;
+        case 2:
+            std::cout << "неудовлетворительно" << std::endl;
+            break;
+        case 3:
+            std::cout << "удовлетворительно" << std::endl;
+            break;
+        case 4:
+            std::cout << "хорошо" << std::endl;
+            break;
+        case 5:
+            std::cout << "отлично" << std::endl;
+            break;
+        default:
+            std::cout << "ошибка" << std::endl;
+            break;
+    }
+
+    return 0;
+}
+
+C++, [01.05.2023 0:12]
+Case3
+
+C++, [01.05.2023 0:13]
+#include <iostream>
+
+int main() {
+    int month;
+    std::cout << "Введите номер месяца (1-12): ";
+    std::cin >> month;
+
+    if (month >= 1 && month <= 12) {
+        if (month >= 3 && month <= 5) {
+            std::cout << "весна" << std::endl;
+        } else if (month >= 6 && month <= 8) {
+            std::cout << "лето" << std::endl;
+        } else if (month >= 9 && month <= 11) {
+            std::cout << "осень" << std::endl;
+        } else {
+            std::cout << "зима" << std::endl;
+        }
+    } else {
+        std::cout << "Ошибка! Введите число от 1 до 12." << std::endl;
+    }
+
+    return 0;
+}
+
+C++, [01.05.2023 0:14]
+Case4
+
+C++, [01.05.2023 0:14]
+#include <iostream>
+
+int main() {
+    int month;
+    std::cout << "Введите номер месяца (1-12): ";
+    std::cin >> month;
+
+    if (month >= 1 && month <= 12) {
+        int days;
+        if (month == 2) { // февраль
+            days = 28;
+        } else if (month == 4 || month == 6 || month == 9 || month == 11) { // апрель, июнь, сентябрь, ноябрь
+            days = 30;
+        } else { // все остальные месяцы
+            days = 31;
+        }
+        std::cout << "В этом месяце " << days << " дней." << std::endl;
+    } else {
+        std::cout << "Ошибка! Введите число от 1 до 12." << std::endl;
+    }
+
+    return 0;
+}
+
+C++, [01.05.2023 0:15]
+Case5
+
+C++, [01.05.2023 0:16]
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int n;
+    double a, b;
+    cout << "Введите номер действия (1-сложение, 2-вычитание, 3-умножение, 4-деление): ";
+    cin >> n;
+    cout << "Введите два числа: ";
+    cin >> a >> b;
+    switch (n) {
+        case 1:
+            cout << "Результат: " << a + b << endl;
+            break;
+        case 2:
+            cout << "Результат: " << a - b << endl;
+            break;
+        case 3:
+            cout << "Результат: " << a * b << endl;
+            break;
+        case 4:
+            cout << "Результат: " << a / b << endl;
+            break;
+        default:
+            cout << "Некорректный номер действия" << endl;
+            break;
+    }
+    return 0;
+}
+
+C++, [01.05.2023 0:18]
+Case5
+
+C++, [01.05.2023 0:18]
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int unit;
+    double length;
+    cout << "Введите номер единицы длины (1-5): ";
+    cin >> unit;
+    cout << "Введите длину отрезка в выбранных единицах: ";
+    cin >> length;
+    double meters;
+    switch (unit) {
+        case 1:
+            meters = length / 10;
+            break;
+        case 2:
+            meters = length * 1000;
+            break;
+        case 3:
+            meters = length;
+            break;
+        case 4:
+            meters = length / 1000;
+            break;
+        case 5:
+            meters = length / 100;
+            break;
+        default:
+            cout << "Ошибка: неверный номер единицы длины." << endl;
+            return 1;
+    }
+    cout << "Длина отрезка в метрах: " << meters << endl;
+    return 0;
+}
+
+C++, [01.05.2023 0:19]
+Case6
+
+C++, [01.05.2023 0:19]
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int unit;
+    double weight;
+
+    cout << "Введите номер единицы массы (1-5): ";
+    cin >> unit;
+
+    cout << "Введите массу тела в выбранных единицах: ";
+    cin >> weight;
+
+    switch (unit) {
+        case 1: // килограмм
+            cout << "Масса тела в килограммах: " << weight << endl;
+            break;
+        case 2: // миллиграмм
+            cout << "Масса тела в килограммах: " << weight / 1000000 << endl;
+            break;
+        case 3: // грамм
+            cout << "Масса тела в килограммах: " << weight / 1000 << endl;
+            break;
+        case 4: // тонна
+            cout << "Масса тела в килограммах: " << weight * 1000 << endl;
+            break;
+        case 5: // центнер
+            cout << "Масса тела в килограммах: " << weight * 100 << endl;
+            break;
+        default:
+            cout << "Некорректный номер единицы массы!" << endl;
+            break;
+    }
+
+    return 0;
+}
+
+C++, [01.05.2023 0:23]
+Case7
+
+C++, [01.05.2023 0:23]
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int unit;
+    double weight;
+
+    cout << "Введите номер единицы массы (1-5): ";
+    cin >> unit;
+
+    cout << "Введите массу тела в выбранных единицах: ";
+    cin >> weight;
+
+    switch (unit) {
+        case 1: // килограмм
+            cout << "Масса тела в килограммах: " << weight << endl;
+            break;
+        case 2: // миллиграмм
+            cout << "Масса тела в килограммах: " << weight / 1000000 << endl;
+            break;
+        case 3: // грамм
+            cout << "Масса тела в килограммах: " << weight / 1000 << endl;
+            break;
+        case 4: // тонна
+            cout << "Масса тела в килограммах: " << weight * 1000 << endl;
+            break;
+        case 5: // центнер
+            cout << "Масса тела в килограммах: " << weight * 100 << endl;
+            break;
+        default:
+            cout << "Некорректный номер единицы массы!" << endl;
+            break;
+    }
+
+    return 0;
+}
+
+C++, [01.05.2023 0:25]
+Case8
+
+C++, [01.05.2023 0:25]
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int day, month;
+    cin >> day >> month;
+
+    if (day == 1) { // если день равен 1, то нужно уменьшить месяц и установить день на последний день предыдущего месяца
+        if (month == 1) { // если месяц январь, то нужно установить месяц на декабрь и день на 31
+            month = 12;
+            day = 31;
+        } else if (month == 3) { // если месяц март, то нужно проверить, является ли год високосным, и установить день на 29 или 28
+            int year;
+            cin >> year;
+            if ((year % 4 == 0 && year % 100 != 0)  year % 400 == 0) {
+                day = 29;
+            } else {
+                day = 28;
+            }
+            month = 2;
+        } else if (month == 5  month == 7  month == 10  month == 12) { // если месяц май, июль, октябрь или декабрь, то нужно установить день на 30
+            day = 30;
+            month--;
+        } else { // в остальных случаях нужно установить день на 31 и уменьшить месяц на 1
+            day = 31;
+            month--;
+        }
+    } else { // в остальных случаях нужно просто уменьшить день на 1
+        day--;
+    }
+
+    cout << day << " " << month << endl;
+
+    return 0;
+}
+
+C++, [01.05.2023 0:26]
+Case9
+
+C++, [01.05.2023 0:27]
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int d, m;
+    cout << "Введите день и месяц: ";
+    cin >> d >> m;
+
+    // проверка на корректность введенных данных
+    if (m < 1  m > 12  d < 1  d > 31) {
+        cout << "Некорректная дата" << endl;
+        return 0;
+    }
+
+    // определяем количество дней в месяце
+    int days_in_month;
+    if (m == 2) {
+        days_in_month = 28;
+    } else if (m == 4  m == 6  m == 9  m == 11) {
+        days_in_month = 30;
+    } else {
+        days_in_month = 31;
+    }
+
+    // проверка на корректность дня в месяце
+    if (d > days_in_month) {
+        cout << "Некорректный день" << endl;
+        return 0;
+    }
+
+    // определяем следующую дату
+    if (d == days_in_month) {
+        d = 1;
+        m++;
+    } else {
+        d++;
+    }
+
+    // выводим результат
+    cout << "Следующая дата: " << d << "." << m << endl;
+
+    return 0;
+}
+
+C++, [01.05.2023 0:29]
+Case 10
+
+C++, [01.05.2023 0:29]
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    char direction;
+    int command;
+    cout << "Введите исходное направление робота (С, З, Ю, В): ";
+    cin >> direction;
+    cout << "Введите команду для робота (0 - продолжать движение, 1 - поворот налево, -1 - поворот направо): ";
+    cin >> command;
+
+    switch(direction) {
+        case 'С':
+            if(command == 0) {
+                cout << "Робот продолжает движение на север" << endl;
+            } else if(command == 1) {
+                cout << "Робот повернул на запад" << endl;
+            } else if(command == -1) {
+                cout << "Робот повернул на восток" << endl;
+            } else {
+                cout << "Некорректная команда" << endl;
+            }
+            break;
+        case 'З':
+            if(command == 0) {
+                cout << "Робот продолжает движение на запад" << endl;
+            } else if(command == 1) {
+                cout << "Робот повернул на юг" << endl;
+            } else if(command == -1) {
+                cout << "Робот повернул на север" << endl;
+            } else {
+                cout << "Некорректная команда" << endl;
+            }
+            break;
+        case 'Ю':
+            if(command == 0) {
+                cout << "Робот продолжает движение на юг" << endl;
+            } else if(command == 1) {
+                cout << "Робот повернул на восток" << endl;
+            } else if(command == -1) {
+                cout << "Робот повернул на запад" << endl;
+            } else {
+                cout << "Некорректная команда" << endl;
+            }
+            break;
+        case 'В':
+            if(command == 0) {
+                cout << "Робот продолжает движение на восток" << endl;
+            } else if(command == 1) {
+                cout << "Робот повернул на север" << endl;
+            } else if(command == -1) {
+                cout << "Робот повернул на юг" << endl;
+            } else {
+                cout << "Некорректная команда" << endl;
+            }
+            break;
+        default:
+            cout << "Некорректное направление робота" << endl;
+            break;
+    }
+
+    return 0;
+}
+
+C++, [04.05.2023 12:41]
+ТП 6 задача
+
+C++, [04.05.2023 12:41]
+#include <iostream>
+#include <cstring>
+
+class String {
+private:
+    char* str;
+    int len;
+public:
+    String(const char* s) {
+        len = strlen(s);
+        str = new char[len + 1];
+        strcpy(str, s);
+    }
+
+    ~String() {
+        delete[] str;
+        str = NULL;
+    }
+
+    int length() const {
+        return len;
+    }
+
+    void print() const {
+        std::cout << str << std::endl;
+    }
+
+    char& operator[](int index) {
+        return str[index];
+    }
+
+    const char& operator[](int index) const {
+        return str[index];
+    }
+
+    void reverse() {
+        for (int i = 0; i < len / 2; i++) {
+            char temp = str[i];
+            str[i] = str[len - i - 1];
+            str[len - i - 1] = temp;
+        }
+    }
+
+    String substr(int start, int length) const {
+        char* temp = new char[length + 1];
+        strncpy(temp, str + start, length);
+        temp[length] = '\0';
+        String result(temp);
+        delete[] temp;
+        return result;
+    }
+
+    bool contains(const char* s) const {
+        return strstr(str, s) != nullptr;
+    }
+};
+
+int main() {
+    String s("Good morning!");
+    std::cout << "длинна: " << s.length() << std::endl;
+    s.print();
+    std::cout << "Сивол на позиции 9: " << s[9] << std::endl;
+    s[9] = 'i';
+    s.print();
+    s.reverse();
+    s.print();
+    String sub = s.substr(7, 6);
+    sub.print();
+    std::cout << "Символ 'Good': " << s.contains("o") << std::endl;
+    return 0;
+}
+
+C++, [05.05.2023 21:02]
+13. а)
+#include <iostream>                                                                                                                          #include <cmath>
+using namespace std;
+int main()
+{
+    float a;
+    cout << "Введите a" << endl;
+    cin >> a;
+    float x = (7*pow(a,2)) - 3*a +6;
+    cout << x << endl;
+    return 0;
+}
+
+C++, [05.05.2023 21:03]
+б)                                                                                                                                     #include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float a;
+    cout << "Введите a" << endl;
+    cin >> a;
+    float y = (12*pow(a,2)) + 7*a - 16;
+    cout << y << endl;
+    return 0;
+}
+
+C++, [05.05.2023 21:03]
+14.                                                                                                                                #include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float a;
+    cout << "Введите a" << endl;
+    cin >> a;
+    float otvet = (pow(a,2) + 1)/sqrt(pow(a,2) + 1);
+    cout << otvet << endl;
+    return 0;
+}
+
+C++, [05.05.2023 21:03]
+15. a)                                                                                                                        #include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float a;
+    cout << "Введите a" << endl;
+    cin >> a;
+    if (a < 0) {
+        cout << "Под корнем отрицательное число";
+    }
+    else {
+    double x = sqrt(2*a + sin(abs(3*a)));
+    double x1 = x/3.56;
+    cout << x1 << endl;
+    }
+    return 0;
+}
+
+C++, [05.05.2023 21:03]
+б)                                                                                                                           #include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float a;
+    cout << "Введите a" << endl;
+    cin >> a;
+    if (a < 0) {
+        cout << "Под корнем отрицательное число";
+    }
+    else {
+    float x = sin((3.2 + sqrt(1+a))/abs(5*a));
+    cout << x << endl;
+    }
+    return 0;
+}
+
+C++, [05.05.2023 21:03]
+16.                                                                                                                   #include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float a;
+    cout << "Введите сторону" << endl;
+    cin >> a;
+    float P = 4*a;
+    cout << P << endl;
+    return 0;
+}
+
+C++, [05.05.2023 21:03]
+17.                                                                                                                   #include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float R;
+    cout << "Введите радиус" << endl;
+    cin >> R;
+    float D = 2*R;
+    cout << D << endl;
+    return 0;
+}
+
+C++, [05.05.2023 21:03]
+18.                                                                                                                 #include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float R, h;
+    R = 6350;
+    cout << "Радиус = " << R << endl;
+    cout << "Введите высоту " << endl;
+    cin >> h;
+    float D = sqrt(h*(2*R + h));
+    cout << D << endl;
+    return 0;
+}
+
+C++, [05.05.2023 21:03]
+19.                                                                                                                       #include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float a;
+    cout << "Введите длину ребра" << endl;
+    cin >> a;
+    float V = a*a*a;
+    float S = a*a;
+    cout << V << endl;
+    cout << S << endl;  
+    return 0;
+}
+
+C++, [05.05.2023 21:03]
+20.                                                                                                                     #include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float R, pi;
+    pi = 3.14;
+    cout << "Введите радиус" << endl;
+    cin >> R;
+    float l = 2*pi*R;
+    float S = pi*R*R;
+    cout << l << endl;
+    cout << S << endl;  
+    return 0;
+}
+
+C++, [05.05.2023 21:03]
+21. a)                                                                                                                         #include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float x, y;
+    cout << "Введите x" << endl;
+    cin >> x;
+    cout << "Введите y" << endl;
+    cin >> y;
+    float z = pow(x,3) - 2.5*x*y + 1.78*pow(x,2) - 12.5*y + 1;
+    cout << z << endl;
+    return 0;
+}
+
+C++, [05.05.2023 21:03]
+б)                                                                                                                       #include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float a, b;
+    cout << "Введите a" << endl;
+    cin >> a;
+    cout << "Введите b" << endl;
+    cin >> b;
+    float x = 3.56*pow((a + b),3) - 5.8*pow(b,2) + 3.8*a - 1.5;
+    cout << x << endl;
+    return 0;
+}
+
+C++, [05.05.2023 21:03]
+22. a и b)                                                                                                     #include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float a, b;
+    cout << "Введите 1 число" << endl;
+    cin >> a;
+    cout << "Введите 2 число" << endl;
+    cin >> b;
+    float sredarimf = (a + b)/2;
+    float sredgeometry = sqrt(sqrt(sqrt(a*b)));
+    cout << sredarimf << endl;
+    cout << sredgeometry << endl;
+    return 0;
+}
+
+C++, [05.05.2023 21:03]
+23.                                                                                                                      #include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float m, V;
+    cout << "Введите массу" << endl;
+    cin >> m;
+    cout << "Введите обьем" << endl;
+    cin >> V;
+    float p = m/V;
+    cout << p << endl;
+    return 0;
+}
+
+C++, [05.05.2023 21:03]
+24.                                                                                                                   #include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float m, V;
+    cout << "Введите массу" << endl;
+    cin >> m;
+    cout << "Введите обьем" << endl;
+    cin >> V;
+    float p = m/V;
+    cout << p << endl;
+    return 0;
+}
+
+C++, [05.05.2023 21:03]
+25.                                                                                                                  #include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float a, b;
+    cout << "Введите a" << endl;
+    cin >> a;
+    cout << "Введите b" << endl;
+    cin >> b;
+    float x = b/a;
+    cout << x << endl;
+    return 0;
+}
+
+C++, [05.05.2023 21:03]
+26.                                                                                                                  #include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float a, b;
+    cout << "Введите сторону а" << endl;
+    cin >> a;
+    cout << "Введите сторону b" << endl;
+    cin >> b;
+    if ( a == 0  b == 0  a <0 || b < 0) {
+        cout << "Нет такого треугольника" << endl;
+    }
+    else {
+    unsigned long gipot = pow(a,2) + pow(b,2);
+    cout << gipot << endl;
+    }
+    return 0;
+}
+
+C++, [05.05.2023 21:03]
+27.                                                                                                                #include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float r, R, pi;
+    pi = 3.14;
+    cout << "Введите радиус малого кольца" << endl;
+    cin >> r;
+    cout << "Введите радиус большого" << endl;
+    cin >> R;
+    if ( r == 0  R == 0  r <0 || R < 0) {
+        cout << "Нет такого кольца" << endl;
+    }
+    else {
+    unsigned long P = (pi*R*R) - (pi*r*r);
+    cout << P << endl;
+    }
+    return 0;
+}
+
+C++, [05.05.2023 21:03]
+28.                                                                                                                           #include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float a, b, c;
+    cout << "Введите сторону а" << endl;
+    cin >> a;
+    cout << "Введите сторону b" << endl;
+    cin >> b;
+    cout << "Введите сторону с" << endl;
+    cin >> c;
+    if ( a == 0  || b == 0  ||c == 0 a <0  b < 0 ||c < 0) {
+        cout << "Нет такого треугольника" << endl;
+    }
+    else {
+    unsigned long P = a + b + c;
+    cout << P << endl;
+    }
+    return 0;
+}
+
+C++, [05.05.2023 21:03]
+29.                                                                                                                      #include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float h, a, b;
+    cout << "Введите высоту" << endl;
+    cin >> h;
+    cout << "Введите основание a" << endl;
+    cin >> a;
+    cout << "Введите основание b" << endl;
+    cin >> b;
+    if ( a == 0  b == 0  a <0 || b < 0) {
+        cout << "Нет такого трапеции" << endl;
+    }
+    else {
+    unsigned long P = (h*(a+b))/2;
+    cout << P << endl;
+    }
+    return 0;
+}
+
+C++, [05.05.2023 21:03]
+30.                                                                                                                    #include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float x, y;
+    cout << "Введите x" << endl;
+    cin >> x;
+    cout << "Введите y" << endl;
+    cin >> y;
+    float z = x+((2+y)/pow(x,2))/(y+(1/sqrt(pow(x,2)+10)));
+    float q = 2.8*sin(x)+abs(y);
+    cout << z << endl;
+    cout << q << endl;
+    return 0;
+}
+
+C++, [05.05.2023 21:03]
+31.                                                                                                                            #include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float a, b;
+    cout << "Введите a" << endl;
+    cin >> a;
+    cout << "Введите b" << endl;
+    cin >> b;
+    float x = ((2/(pow(a,2)+25))+b)/(sqrt(b))+((a+b)/2);
+    float y = (abs(a)+2*sin(b))/5.5*a;
+    cout << x << endl;
+    cout << y << endl;
+    return 0;
+}
+
+C++, [05.05.2023 21:03]
+32.                                                                                                                                                                            #include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float a, b;
+    cout << "Введите a" << endl;
+    cin >> a;
+    cout << "Введите b" << endl;
+    cin >> b;
+    float a1 = abs(a);
+    float b1 = abs(b);
+    float x = (a1 + b1)/2;
+    float y = sqrt(sqrt(sqrt(a1*b1)));
+    cout << x << endl;
+    cout << y << endl;
+    return 0;
+}
+
+C++, [05.05.2023 21:03]
+33.                                                                                                                #include <iostream>
+using namespace std;
+int main ()
+{ 
+    int a, b;
+    cout << "Введите a" << endl;
+    cin >> a;
+    cout << "Введите b" << endl;
+    cin >> b;
+    float P = 2*(a*b);
+    cout << P << endl;
+    float S = a*b;
+    cout << S << endl;
+    return 0;
+}
+
+C++, [05.05.2023 21:03]
+34.                                                                                                                       #include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float a, b;
+    cout << "Введите a" << endl;
+    cin >> a;
+    cout << "Введите b" << endl;
+    cin >> b;
+    float x1 = a + b;
+    float x2 = a - b;
+    float x3 = a * b;
+    float x4 = a / b;
+    cout << "Сумма = " << x1 << endl;
+    cout << "Разность = " << x2 << endl;
+    cout << "Произведение = " << x3 << endl;
+    cout << "Частное от Деления = " << x4 << endl;
+    return 0;
+}
+
+C++, [05.05.2023 21:03]
+35.                                                                                                         #include<iostream>
+using namespace std;
+int main ()
+{ 
+    int a, b, c, h;
+    cout << "Введите a" << endl;
+    cin >> a;
+    cout << "Введите b" << endl;
+    cin >> b;
+    cout << "Введите c" << endl;
+    cin >> c;
+    cout << "Введите h" << endl;
+    cin >> h;
+    float V = a*b*c;
+    cout << V << endl;
+    float P = (a+b+c)*4;
+    float S = P*h;
+    cout << S << endl;
+    return 0;
+}
+
+C++, [05.05.2023 21:03]
+36.                                                                                                              #include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float x1, y1, x2, y2, otvet;
+    cout << "Введите кординату x1" << endl;
+    cin >> x1;
+    cout << "Введите кординату y1" << endl;
+    cin >> y1;
+    cout << "Введите кординату x2" << endl;
+    cin >> x2;
+    cout << "Введите кординату y2" << endl;
+    cin >> y2;
+    otvet = sqrt(pow((x2-x1) , 2) + pow((y2-y1) ,2));
+    cout << "Расстояние между точками = " << otvet << endl;
+    return 0;
+}
+
+C++, [05.05.2023 21:03]
+37.                                                                                                                 #include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+    float a, b, t, s, h;
+    cout << "Введите длинну большего основания трапеции" << endl;
+    cin >> a;
+    cout << "Введите длинну меньшего основания трапеции" << endl;
+    cin >> b;
+    cout << "Введите угол в радиусах" << endl;
+    cin >> t;
+    h = ((a-b) / 2) * tan(t);
+    s = h * ((a+b) / 2);
+    cout << "S = " << s << endl;
+    return 0;
+}
+
+C++, [05.05.2023 21:03]
+38.                                                                                                    #include<iostream>
+#include<cmath>
+using namespace std;
+int main ()
+{ 
+    float a, b, c, x, x1, x2, y, y1, y2;
+    cout << "Введите x" << endl;
+    cin >> x;
+    cout << "Введите x1" << endl;
+    cin >> x1;
+    cout << "Введите x2" << endl;
+    cin >> x2;
+    cout << "Введите y" << endl;
+    cin >> y;
+    cout << "Введите y1" << endl;
+    cin >> y1;
+    cout << "Введите y2" << endl;
+    cin >> y2;
+    a = sqrt(pow((x-x1),2)+pow((y-y1),2));
+    b = sqrt(pow((x-x2),2)+pow((y-y2),2));
+    c = sqrt(pow((x1-x2),2)+pow((y1-y2),2));
+    float p = a+b+c;
+    float S = sqrt(p*(p-a)*(p-b)*(p-c));
+    cout << "Периметр =" << p << endl;
+    cout << "Площадь =" << S << endl;
+    return 0;
+}
+
+C++, [05.05.2023 21:03]
+39.                                                                                                        #include<iostream>
+using namespace std;
+int main ()
+{ 
+    
+    int a, b, m;
+    cout << "Введите a" << endl;
+    cin >> a;
+    cout << "Введите b" << endl;
+    cin >> b;
+    m = a;
+    a = b;
+    b = m;
+    cout << "a=" << a << endl;
+    cout << "b=" << b << endl;
+    return 0;
+}
+
+C++, [05.05.2023 21:03]
+40. a)                                                                                                        #include<iostream>
+#include<cmath>
+using namespace std;
+int main ()
+{ 
+    float a, b, c, m;
+    cout << "Введите a" << endl;
+    cin >> a;
+    cout << "Введите b" << endl;
+    cin >> b;
+    cout << "Введите c" << endl;
+    cin >> c;
+    m = a;
+    a = b;
+    b = c;
+    c = m;
+    cout << "a = " << a << endl;
+    cout << "b = " << b << endl;
+    cout << "c = " << c << endl;
+    return 0;
+}
+
+C++, [05.05.2023 21:03]
+б)                                                                                                                 #include <cmath>
+using namespace std;
+int main()
+{
+    float a, b, c, m, n, v;
+    cout << "Введите a" << endl;
+    cin >> a;
+    cout << "Введите b" << endl;
+    cin >> b;
+    cout << "Введите c" << endl;
+    cin >> c;
+    m = a;
+    n = b;
+    v = c;
+    a = v;
+    b = m;
+    c = n;
+    cout << "a = " << a << endl;
+    cout << "b = " << b << endl;
+    cout << "c = " << c << endl;
+    return 0;
+}
